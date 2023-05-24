@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - sssdsdsd</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <span class="logo">Про100 Тест</span>
+        <nav>
+            <a href="/">Главная страница</a>
+
+            <span> <a href="/Tests">Тесты</a></span>
+        </nav>
+    </header>
+    <maim>
+        @RenderBody()
+    </maim>
+    <footer>Лабораторная работа (Борисенко Савелий АИСа-020303 3-5б) </footer>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

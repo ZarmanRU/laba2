@@ -1,0 +1,50 @@
+{
+    margin: 0;
+    padding: 0;
+}
+
+body[b-455knkbc80] {
+    background: #fff;
+}
+
+header[b-455knkbc80] {
+    width: 80%;
+    padding: 10px 10%;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #808080;
+    border-bottom: 4px solid #000
+}
+
+    header.logo[b-455knkbc80] {
+        font-weight: 600;
+        font-size: 25px;
+    }
+
+    header nav a[b-455knkbc80] {
+        color: #fff;
+        text-decoration: none;
+        margin-left: 15px;
+    }
+
+        header nav a:hover[b-455knkbc80] {
+            text-decoration: underline
+        }
+
+main[b-455knkbc80] {
+    width: 80%;
+    padding: 15px 10%;
+    margin: 50px 0;
+}
+
+footer[b-455knkbc80] {
+    margin-top: 150px;
+    text-align: center;
+    width: 100%;
+    padding: 25px 0;
+    color: #fff;
+    background: #333;
+    border-top: 2px solid #000
+}

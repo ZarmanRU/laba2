@@ -1,0 +1,143 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+}
+
+header {
+    width: 100%;
+    padding: 10px 10%;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #808080;
+    border-bottom: 4px solid #000
+}
+
+    header.logo {
+        font-weight: 600;
+        font-size: 25px;
+    }
+
+    header nav a {
+        color: #fff;
+        text-decoration: none;
+        margin-left: 15px;
+    }
+
+        header nav a:hover {
+            text-decoration: underline
+        }
+
+main {
+    width: 80%;
+    padding: 15px 10%;
+    margin: 50px 0;
+}
+
+footer {
+    margin-top: 150px;
+    text-align: center;
+    width: 100%;
+    padding: 25px 0;
+    color: #fff;
+    background: #333;
+    border-top: 2px solid #000
+}
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+thead th:nth-child(1) {
+    width: 30%;
+}
+
+thead th:nth-child(2) {
+    width: 20%;
+}
+
+thead th:nth-child(3) {
+    width: 15%;
+}
+
+thead th:nth-child(4) {
+    width: 35%;
+}
+
+th, td {
+    padding: 20px;
+}
+
+
+
+body {
+    margin: 40px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.type-1 {
+    border-radius: 10px;
+    border: 1px solid #eee;
+    transition: .3s border-color;
+}
+
+    .type-1:hover {
+        border: 1px solid #aaa;
+    }
+
+.type-2 {
+    background-color: #fafafa;
+    border: 0;
+    box-shadow: 0 0 4px rgba(0,0,0,0.3);
+    transition: .3s box-shadow;
+}
+
+    .type-2:hover {
+        box-shadow: 0 0 4px rgba(0,0,0,0.5);
+    }
+
+.type-3 {
+    border: 1px solid #111;
+    transition: .3s background-color;
+}
+
+    .type-3:hover {
+        background-color: #fafafa;
+    }
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+    background-color: #fafafa;
+}
+
+textarea {
+    width: 100%;
+    resize: vertical;
+    padding: 15px;
+    border-radius: 15px;
+    border: 0;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.06);
+    height: 150px;
+}
+
